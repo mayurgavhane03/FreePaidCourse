@@ -39,13 +39,13 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://JobTask:JobTask@cluster0.sivitp
 DB_NAME = os.environ.get("DB_NAME", "CourseMembers")
 
 #for creating telegram thread for bot to improve performance of the bot
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "600"))
 #your start default command message.
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link. 💾")
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "")
 #Time in seconds for message delete
-TIME = int(os.environ.get("TIME", "60"))
+TIME = int(os.environ.get("TIME", "86400"))
 
 
 #Shortner (token system) 
